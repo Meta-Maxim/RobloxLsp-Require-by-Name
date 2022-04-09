@@ -3,8 +3,6 @@ Adds context-aware require-by-name module linking to Roblox LSP.
 
 ![Code_mGZO39ONWF](https://user-images.githubusercontent.com/2924585/162556118-bebe2db1-95ec-4179-9967-d3fc8a96ecad.gif)
 
-When a string argument is passed to any function named `require`, it will attempt to link the most context-relevant file.
-
 ⚠️ Experimental! Use at your own risk! ⚠️
 
 Last tested with Roblox LSP 1.5.9 on Windows 11
@@ -24,6 +22,8 @@ Last tested with Roblox LSP 1.5.9 on Windows 11
 <br/>
 
 ## Operation:
+
+When a string argument is passed to any function named `require`, it will attempt to link the most context-relevant file.
 
 Contexts: Client, Server, Shared
 
