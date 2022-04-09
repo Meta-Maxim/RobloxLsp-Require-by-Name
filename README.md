@@ -3,7 +3,7 @@ Adds context-aware require-by-name module linking to [Roblox LSP](https://github
 
 ![Code_mGZO39ONWF](https://user-images.githubusercontent.com/2924585/162556118-bebe2db1-95ec-4179-9967-d3fc8a96ecad.gif)
 
-⚠️ Experimental! Use at your own risk! ⚠️
+⚠️ Experimental! ⚠️
 
 Last tested with Roblox LSP 1.5.9 on Windows 11
 
