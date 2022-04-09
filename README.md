@@ -7,7 +7,7 @@ When a string argument is passed to any function named `require`, it will attemp
 
 ⚠️ Experimental! Use at your own risk! ⚠️
 
-Last tested with Roblox LSP 1.5.9
+Last tested with Roblox LSP 1.5.9 on Windows 11
 
 <br/>
 
