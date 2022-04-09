@@ -23,6 +23,8 @@ Last tested with Roblox LSP 1.5.9 on Windows 11
 
 ## Operation:
 
+*(Rojo project required)*
+
 When a string argument is passed to any function named `require`, it will attempt to link the most context-relevant file.
 
 Contexts: Client, Server, Shared
