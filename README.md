@@ -30,7 +30,7 @@ Contexts: Client, Server, Shared
 Context is detected by (highest priority first):
 1. Script class (`Script` vs. `LocalScript`)
 2. If script path contains:
-  - `/client/`
-  - `/shared/`
-  - `/server/`
+   - `/client/`
+   - `/shared/`
+   - `/server/`
 3. Ancestor service of script
