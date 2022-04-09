@@ -15,7 +15,7 @@ Last tested with Roblox LSP 1.5.9
 
 1. Install [Roblox LSP Plugin Loader](https://github.com/MaxBorsch/RobloxLsp-plugin-loader).
 
-2. Move this repository folder (**RobloxLsp-Require-by-Name**) into the `plugins` folder (in the same directory as the `plugin-loader.lua`).
+2. Move this repository folder (**RobloxLsp-Require-by-Name**) into the `plugins` folder.
 
 <br/>
 
