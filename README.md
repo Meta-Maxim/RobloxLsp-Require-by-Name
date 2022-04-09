@@ -11,7 +11,7 @@ Last tested with Roblox LSP 1.5.9 on Windows 11
 
 ## Installation:
 
-1. Install [Roblox LSP Plugin Loader](https://github.com/MaxBorsch/RobloxLsp-plugin-loader).
+1. Install [Roblox LSP Plugin Loader](https://github.com/Meta-Maxim/RobloxLsp-plugin-loader).
 
 2. Save this repository root folder (**RobloxLsp-Require-by-Name**) into the `plugins` folder.
 
