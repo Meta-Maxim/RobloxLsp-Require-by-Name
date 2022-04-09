@@ -1,5 +1,5 @@
 # Roblox LSP Require-by-Name
-Adds context-aware require-by-name module linking to Roblox LSP.
+Adds context-aware require-by-name module linking to [Roblox LSP](https://github.com/NightrainsRbx/RobloxLsp).
 
 ![Code_mGZO39ONWF](https://user-images.githubusercontent.com/2924585/162556118-bebe2db1-95ec-4179-9967-d3fc8a96ecad.gif)
 
