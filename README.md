@@ -5,7 +5,7 @@ Adds context-aware require-by-name module linking to Roblox LSP.
 
 When a string argument is passed to any function named `require`, it will attempt to link the most context-relevant file.
 
-⚠️ Can break with Roblox LSP updates. Use at your own risk! ⚠️
+⚠️ Experimental! Use at your own risk! ⚠️
 
 Last tested with Roblox LSP 1.5.9
 
@@ -15,7 +15,11 @@ Last tested with Roblox LSP 1.5.9
 
 1. Install [Roblox LSP Plugin Loader](https://github.com/MaxBorsch/RobloxLsp-plugin-loader).
 
-2. Move this repository folder (**RobloxLsp-Require-by-Name**) into the `plugins` folder.
+2. Save this repository root folder (**RobloxLsp-Require-by-Name**) into the `plugins` folder.
+
+  *- or -*
+
+1. Save this repository root folder and configure your editor's runtime plugin (`robloxLsp.runtime.plugin`) to `YOUR_PATH_HERE/RobloxLsp-Require-by-Name/plugin.lua`.
 
 <br/>
 
@@ -23,8 +27,8 @@ Last tested with Roblox LSP 1.5.9
 
 Contexts: Client, Server, Shared
 
-Context is detected by (most important first):
-1. Script type (`Script` vs. `LocalScript`)
+Context is detected by (highest priority first):
+1. Script class (`Script` vs. `LocalScript`)
 2. If script path contains:
   - `/client/`
   - `/shared/`
