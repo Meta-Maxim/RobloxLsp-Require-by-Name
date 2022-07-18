@@ -2,7 +2,7 @@ local vm = require("vm.vm")
 local guide = require("core.guide")
 local rojo = require("library.rojo")
 local rbxlibs = require("library.rbxlibs")
-local rbximports = require("library.rbximports")
+local rbximports = require("core.module-import")
 
 local SHARED_CONTEXT = 0
 local SERVER_CONTEXT = 1
